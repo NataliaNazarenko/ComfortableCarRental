@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ComfortableCarRental/static/css/main.cd2e038f.css",
-    "main.js": "/ComfortableCarRental/static/js/main.b8ac0457.js",
+    "main.js": "/ComfortableCarRental/static/js/main.85c8fa29.js",
     "static/js/474.3657f7f3.chunk.js": "/ComfortableCarRental/static/js/474.3657f7f3.chunk.js",
     "static/js/254.59f54c44.chunk.js": "/ComfortableCarRental/static/js/254.59f54c44.chunk.js",
     "static/js/830.09db758d.chunk.js": "/ComfortableCarRental/static/js/830.09db758d.chunk.js",
@@ -14,7 +14,7 @@
     "static/media/close.svg": "/ComfortableCarRental/static/media/close.0a08f205532d28892ca664e476f54b2e.svg",
     "static/media/line.svg": "/ComfortableCarRental/static/media/line.6fd0076f590e2f6c66685988f62df23e.svg",
     "main.cd2e038f.css.map": "/ComfortableCarRental/static/css/main.cd2e038f.css.map",
-    "main.b8ac0457.js.map": "/ComfortableCarRental/static/js/main.b8ac0457.js.map",
+    "main.85c8fa29.js.map": "/ComfortableCarRental/static/js/main.85c8fa29.js.map",
     "474.3657f7f3.chunk.js.map": "/ComfortableCarRental/static/js/474.3657f7f3.chunk.js.map",
     "254.59f54c44.chunk.js.map": "/ComfortableCarRental/static/js/254.59f54c44.chunk.js.map",
     "830.09db758d.chunk.js.map": "/ComfortableCarRental/static/js/830.09db758d.chunk.js.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.cd2e038f.css",
-    "static/js/main.b8ac0457.js"
+    "static/js/main.85c8fa29.js"
   ]
 }
