@@ -40,7 +40,7 @@ Create your own backend for development using the UI service [mockapi.io](https:
 
 Create an advertisement in Mockapi with the following fields: `id`, `year`, `make`, `model`, `type`, `img`, `description`, `fuelConsumption`, `engineSize`, `accessories`, `functionalities`, `rentalPrice`, `rentalCompany`, `address`, `rentalConditions`, `mileage` (see screenshot below). You can use the `adverts.json` file for populating the collection.
 
-![Insert screenshot here](./assets/2.pn)
+![Insert screenshot here](./assets/2.png)
 
 You can select the car images on your own.
 
