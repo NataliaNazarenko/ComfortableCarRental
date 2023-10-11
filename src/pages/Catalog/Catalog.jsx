@@ -1,7 +1,7 @@
 import { CarsList } from 'components/CarsList';
 import { Filter } from 'components/Filter';
 import { LoadMore } from 'components/LoadMore';
-import { Message } from 'components/Message';
+import { Message } from './Catalog.styled';
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import{ fetchCars } from 'redux/cars/operations';
@@ -79,7 +79,7 @@ export default function Catalog() {
     <>
       {isLoading && <Loader />}
       <Filter
-        setSelectedBrand={setBrand}
+        setBrand={setBrand}
         selectedBrand={brand}
         setPrice={setPrice}
         price={price}
@@ -90,7 +90,7 @@ export default function Catalog() {
         handleFilter={handleFilter}
       />
       <CarsList cars={carsBrand} />
-      {carsBrand.length === 0 && !isLoading && <Message />}
+      {carsBrand.length === 0 && !isLoading && <Message>Unfortunately, there is no suitable car for your request. Try changing your search parametrs</Message>}
       {filterCars.length > page * 8 && <LoadMore setPage={setPage} />}
     </>
   );

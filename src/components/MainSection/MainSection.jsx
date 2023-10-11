@@ -1,15 +1,32 @@
-import PropTypes from 'prop-types';
-import { SectionWrapper, TitleName } from './MainSection.styled';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-export function Section({ title, children }) {
+import {
+  Hero,
+  Text,
+  Button
+} from './MainSection.styled';
+
+export const MainSection = () => {
+  const navigate = useNavigate();
+
+  const handleNav = () => {
+    navigate('/catalog');
+  };
+
   return (
-    <SectionWrapper>
-      {title && <TitleName>{title}</TitleName>}
-      {children}
-    </SectionWrapper>
-  );
-}
+    <>
+      <main>
+       
+        <Hero>
+          <Text>Travel worry-free and in comfort</Text>
 
-Section.propTypes = {
-  title: PropTypes.string.isRequired,
+          <Button onClick={handleNav}>Your Comfort Now</Button>
+        </Hero>
+     
+      </main>
+    </>
+  );
 };
+
+

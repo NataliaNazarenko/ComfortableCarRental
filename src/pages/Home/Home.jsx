@@ -1,9 +1,7 @@
-import { Wrapper, Title } from './Home.styled';
+import { MainSection } from 'components/MainSection';
+import React from 'react';
 
 export default function Home() {
-  return (
-    <Wrapper>
-      <Title>Welcome!</Title>
-    </Wrapper>
-  );
-}
+  return <MainSection />;
+};
+

@@ -13,7 +13,7 @@ export const Message = ({ title, content }) => {
          {title && <Title>{title}</Title>}
          {content && <Text>{content}</Text>}
          <Catalog to="/catalog">
-          Follow to catalog and choose favorite cars
+          Choose favorite cars
         </Catalog>
         </Container>
       

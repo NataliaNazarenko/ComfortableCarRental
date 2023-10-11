@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
-// import { FooterBar } from 'components/FooterBar';
+import { FooterBar } from 'components/FooterBar';
 import { HeaderBar } from 'components/HeaderBar';
 // import { Main } from './Layout.styled';
 
@@ -14,7 +14,7 @@ export default function Layout() {
           <Outlet />
         </Suspense>
       </main>
-      {/* <FooterBar /> */}
+      <FooterBar />
     </>
   );
 }
