@@ -10,16 +10,16 @@ import { GlobalStyles, theme } from './components/styles/index';
 import { App } from './components/App/index';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <Global styles={GlobalStyles} />
-      <Provider store={store}>
-        <PersistGate loading={null} persistor={persistor}>
-          <BrowserRouter basename="/ComfortableCarRental">
-            <App />
-          </BrowserRouter>
-        </PersistGate>
-      </Provider>
-    </ThemeProvider>
-  </React.StrictMode>
+  
+  <ThemeProvider theme={theme}>
+    <Global styles={GlobalStyles} />
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <BrowserRouter basename="/ComfortableCarRental">
+          <App />
+        </BrowserRouter>
+      </PersistGate>
+    </Provider>
+  </ThemeProvider>
+  
 );
