@@ -32,6 +32,28 @@ Implement routing using React Router. The application should have the following 
 
 If a user visits a non-existent route, they should be redirected to the home page.
 
+## Additional Task
+
+Add filtering:
+
+- Dropdown with car brands from `makes.json` - display advertisements with cars of the corresponding brand.
+- Dropdown with hourly rental prices (in increments of $10) - display advertisements with cars whose rental price falls within the user-selected price range.
+- Group of inputs to determine the mileage range within which the user will search for advertisements.
+
+## Frontend
+
+1. Make a copy of this project.
+2. Don't forget in properties allow git-hub-actions.
+3. Clone the project to your computer
+4. Install all dependencies with: `npm i`
+5. Change project name and username in package.json in fields "name" and
+   "homepage"
+6. in index.js write the correct basename="/car-rent" of your project with /
+   (slash)
+7. Pull your changes to GitHub
+8. For deploying, you can use gh-pages.
+9. To start your project, use the command: `npm start`
+
 ## Backend
 
 Create your own backend for development using the UI service [mockapi.io](https://mockapi.io/). Create a resource named `adverts`. Describe the advertisement object as outlined below.
@@ -46,19 +68,3 @@ You can select the car images on your own.
 
 The database should contain at least 32 advertisements with different values according to your discretion. Pagination should be implemented, with one pagination page containing 8 advertisements.
 
-## Additional Task
-
-Add filtering:
-
-- Dropdown with car brands from `makes.json` - display advertisements with cars of the corresponding brand.
-- Dropdown with hourly rental prices (in increments of $10) - display advertisements with cars whose rental price falls within the user-selected price range.
-- Group of inputs to determine the mileage range within which the user will search for advertisements.
-
-## Evaluation Criteria
-
-- The layout should be fixed in pixels, semantic, and valid.
-- There should be no errors in the browser console.
-- Interactivity should work according to the technical requirements.
-- The code should be well-formatted and without comments.
-- The repository should have a descriptive `README.md`.
-- The project should be deployed on GitHub Pages or netlify.com.
