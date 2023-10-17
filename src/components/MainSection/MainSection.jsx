@@ -16,15 +16,10 @@ export const MainSection = () => {
 
   return (
     <>
-      <main>
-       
-        <Hero>
-          <Text>Travel worry-free and in comfort</Text>
-
-          <Button onClick={handleNav}>Your Comfort Now</Button>
-        </Hero>
-     
-      </main>
+      <Hero>
+        <Text>Travel worry-free and in comfort</Text>
+        <Button onClick={handleNav}>Your Comfort Now</Button>
+      </Hero>
     </>
   );
 };

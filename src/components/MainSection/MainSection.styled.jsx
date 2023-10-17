@@ -16,6 +16,7 @@ export const Container = styled.div`
   }
 `;
 
+
 export const Hero = styled.div`
   margin: 0 auto;
   max-width: 1600px;
@@ -27,7 +28,7 @@ export const Hero = styled.div`
   background-size: cover;
   @media (min-width: 1440px) {
     padding: 200px 0px;
-    height: 800px;
+    
   }
 `;
 
