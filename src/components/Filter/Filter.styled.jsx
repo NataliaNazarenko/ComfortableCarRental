@@ -83,6 +83,26 @@ export const Select = styled.select`
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-bottom: 0.5em;
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    // background:transparent
+    background: #3e85f3;
+    border-radius: 12px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #e7e5e5;
+    height: 112px;
+    border-radius: 12px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7c7c7c;
+  }
 `;
 
 export const Wrapper = styled.div`
