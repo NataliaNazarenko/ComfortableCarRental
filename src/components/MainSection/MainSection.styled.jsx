@@ -19,8 +19,7 @@ export const Container = styled.div`
 
 export const Hero = styled.div`
   margin: 0 auto;
-  max-width: 1600px;
-  height: 600px;
+  height: 800px;
   padding: 100px 0px;
   background-image: url(${ImgBg});
   background-position: top center;
@@ -53,7 +52,7 @@ export const Button = styled.button`
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 28px;
+  margin-top: 40px;
   padding: 12px 52px;
   border-radius: 12px;
   background-color: ${props => props.theme.colors.accent};
